@@ -1,0 +1,54 @@
+
+
+.card-about{
+
+height: 120px;
+margin-top: 30px;
+color: rgb(240, 237, 232);
+}
+.about{
+    
+    color: rgb(236, 234, 233);
+}
+
+#about-us{
+    color: black;
+} 
+
+.side-card{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 120px;
+    width: 200px;
+    color:white;
+
+}
+.side{
+    background-color: mediumvioletred;
+}
+
+.side-card-2{
+    margin-top: 50px;
+    height: 250px;
+    width: 400px;
+    color: rgb(233, 231, 231);
+}
+
+.side-2{
+    text-align: center;
+}
+
+#rating{
+    color: mediumvioletred;
+}
+#points{
+    color: rgb(49, 167, 26);
+}
+
+#star{
+    color: rgba(255, 230, 0, 0.986);
+} 
+
+#user{
+    color: rgb(28, 77, 238);
+}

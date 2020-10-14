@@ -1,0 +1,18 @@
+
+
+
+#firstcard{
+    height: 160px;
+    width: 250px;
+    
+} 
+#card-body-first
+{
+    text-align: center;
+background-color: rgb(235, 232, 228);
+}
+
+#btn{
+    background-color: mintcream;
+    border-radius: 20px;
+} 

@@ -1,0 +1,100 @@
+
+.text-two{
+    color: rgb(201, 9, 130);
+    font-style: italic;
+}
+
+.text-one{
+    color:rgb(201, 9, 130);
+}
+
+h{
+    color: white;
+}
+hh{
+    color: black;
+}
+.text-one-one{
+    color:rgb(201, 9, 130);
+    text-align: right;
+}
+.text-two-two{
+    color:rgb(201, 9, 130);
+    text-align: right;
+    font-style: italic;
+}
+
+#patient-button{
+    text-align: right;
+}
+
+
+#button-one{
+    width: 100px;
+    height: 40px;
+    
+    border-radius: 20px;
+    border-color: mediumvioletred;
+    background-color: mediumvioletred;
+    color: #fff;
+
+}
+#button-two{
+    width: 100px;
+    height: 40px;
+   
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid mediumvioletred;
+    color:black;
+    
+}
+#button-two:hover
+{
+background-color:rgb(221, 71, 166);
+border:none;
+color: #fff;
+box-shadow: 5px 5px 10px #999;
+transition: 0.4s;
+}
+
+#button-one:hover
+{
+background-color:rgb(116, 98, 109);
+border:none;
+color: #fff;
+box-shadow: 5px 5px 10px #999;
+transition: 0.4s;
+} 
+
+
+
+
+
+
+#signup-patient{
+    margin-top: 150px;
+}
+
+#signup-doctor{
+    margin-top: 150px;
+}
+
+.col-md-13{
+    margin-top: 20px;
+    height: 135px;
+    background-color: rgb(201, 23, 135);
+}
+.doctorImg1{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 180px;
+    height: 140px;
+}
+.doctorImg2{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 120px;
+}

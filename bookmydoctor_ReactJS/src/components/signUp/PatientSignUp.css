@@ -1,0 +1,16 @@
+.patientContent{
+    color: mediumvioletred;
+}
+#exampleModalLabel{
+text-align: center;
+margin-left: 100px;
+color: mediumvioletred
+}
+#address{
+width: 460px;
+border-color: rgb(233, 226, 226);
+}
+
+#check-box{
+text-align: right;
+}

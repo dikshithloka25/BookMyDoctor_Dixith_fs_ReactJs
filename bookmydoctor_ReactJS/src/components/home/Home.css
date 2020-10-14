@@ -1,0 +1,19 @@
+.text{
+    margin-top: 100px;
+}
+.text2{
+    
+    color: mediumvioletred;
+}
+.text4{
+    color: mediumvioletred;
+}
+
+.doctor{
+    margin-top: 50px;
+   
+    height:380px;
+    width: 700px;
+}
+
+#more {display: none;}

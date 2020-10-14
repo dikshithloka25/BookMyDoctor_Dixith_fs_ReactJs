@@ -1,0 +1,11 @@
+
+#rating-card{
+    margin-bottom: 20px;
+ text-align: center;
+    width: 300px;
+}
+
+.card-body-rating{
+    text-align: center;
+    background-color: rgb(235, 232, 228);
+}

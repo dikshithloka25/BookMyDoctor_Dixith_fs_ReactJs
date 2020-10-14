@@ -1,0 +1,108 @@
+
+
+[data-tooltip-one]{
+    position: relative;
+    cursor: default;
+
+}
+[data-tooltip-one]::after{
+    position: absolute;
+    width: 150px;
+    left: calc(50% - 70px);
+    text-align: center;
+    box-sizing: border-box;
+
+    content: attr(data-tooltip-one);
+    color: rgb(243, 240, 240);
+    background: rgb(228, 17, 133);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 0.6em;
+    font-weight: normal;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 70px;
+    transform:translateY(10px);
+
+    transition:opacity 0.3s , transform 0.2s;
+
+
+
+}
+[data-tooltip-one]:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transform:translateY(0);
+}
+
+
+
+[data-tooltip-two]{
+    position: relative;
+    cursor: default;
+
+}
+[data-tooltip-two]::after{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 70px);
+    text-align: center;
+    box-sizing: border-box;
+
+    content: attr(data-tooltip-two);
+    color: rgb(243, 240, 240);
+    background: rgb(228, 17, 133);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 0.6em;
+    font-weight: normal;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 70px;
+    transform:translateY(10px);
+
+    transition:opacity 0.3s , transform 0.2s;
+
+
+
+}
+[data-tooltip-two]:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transform:translateY(0);
+}
+
+[data-tooltip-three]{
+    position: relative;
+    cursor: default;
+
+}
+[data-tooltip-three]::after{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 70px);
+    text-align: center;
+    box-sizing: border-box;
+
+    content: attr(data-tooltip-three);
+    color: rgb(243, 240, 240);
+    background: rgb(228, 17, 133);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 0.6em;
+    font-weight: normal;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 70px;
+    transform:translateY(10px);
+
+    transition:opacity 0.3s , transform 0.2s;
+
+
+
+}
+[data-tooltip-three]:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transform:translateY(0);
+}
